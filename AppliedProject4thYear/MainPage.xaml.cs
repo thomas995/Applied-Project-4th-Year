@@ -26,5 +26,20 @@ namespace AppliedProject4thYear
         {
             this.InitializeComponent();
         }
+
+        private void btnPlay_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnPlay_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnAttention_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(AttentionLevel1));
+        }
     }
 }
