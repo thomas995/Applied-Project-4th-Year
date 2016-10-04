@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>1bdd7a23-a59b-4fe5-a910-159b978a4845</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\obj\x86\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>D4FAAE8DF59D99948A9C74E976FE57DFD6A304C1F0F4C41BA91EEB0B632790F4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>1bdd7a23-a59b-4fe5-a910-159b978a4845_1.0.0.0_x86__xp10nbj12f0ca</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>1bdd7a23-a59b-4fe5-a910-159b978a4845_xp10nbj12f0ca!App</RegisteredUserModeAppID>
@@ -19,16 +19,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-30T13:45:01.481</Modified>
+      <Modified>2016-10-04T15:36:57.820</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\bin\x86\Debug\AppliedProject4thYear.exe">
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\bin\x86\Debug\AppliedProject4thYear.exe">
       <PackagePath>entrypoint\AppliedProject4thYear.exe</PackagePath>
-      <Modified>2016-09-30T13:44:52.947</Modified>
+      <Modified>2016-10-04T15:36:48.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\owner\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -454,67 +454,71 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-02-08T17:47:08.075</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\ApplicationInsights.config">
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
       <Modified>2016-09-30T12:26:14.778</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\Images\MainPage.png">
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\Images\imgAttentionMainPage.jpeg">
+      <PackagePath>Images\imgAttentionMainPage.jpeg</PackagePath>
+      <Modified>2016-09-30T14:15:15.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\Images\MainPage.png">
       <PackagePath>Images\MainPage.png</PackagePath>
       <Modified>2016-09-30T13:41:35.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-10-10T21:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T21:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T21:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T21:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T21:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T21:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T21:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-09-30T12:25:22.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\bin\x86\Debug\AppliedProject4thYear.xr.xml">
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\bin\x86\Debug\AppliedProject4thYear.xr.xml">
       <PackagePath>AppliedProject4thYear.xr.xml</PackagePath>
-      <Modified>2016-09-30T13:44:52.130</Modified>
+      <Modified>2016-10-04T15:36:47.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-02-24T15:45:37.877</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-09-30T13:44:58.440</Modified>
+      <Modified>2016-10-04T15:36:55.239</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Documents\Visual Studio 2015\Projects\AppliedProject4thYear\AppliedProject4thYear\bin\x86\Debug\Core\AppliedProject4thYear.exe">
+    <AppxPackagedFile Include="C:\Users\owner\Desktop\Applied-Project-4th-Year\AppliedProject4thYear\bin\x86\Debug\Core\AppliedProject4thYear.exe">
       <PackagePath>AppliedProject4thYear.exe</PackagePath>
-      <Modified>2016-09-30T13:45:01.398</Modified>
+      <Modified>2016-10-04T15:36:57.784</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -9,7 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Image x:Name="imgMainPage" Source="Images/MainPage.png" HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="360" Margin="3,170,0,0" d:IsLocked="True" />
-        <Image x:Name="imgAttentionMainPage" Source="Images/imgAttentionMainPage.jpeg" HorizontalAlignment="Left" Height="200" VerticalAlignment="Top" Width="150" Margin="3,250,0,0" d:IsLocked="True" />
+        <Image x:Name="imgAttentionMainPage" Source="Images/imgAttentionMainPage.png" HorizontalAlignment="Left" Height="200" VerticalAlignment="Top" Width="150" Margin="3,250,0,0" d:IsLocked="True" />
         <Button x:Name="btnAttention" Opacity="0" Content="Attention" HorizontalAlignment="Left" Margin="11,176,0,0" VerticalAlignment="Top" Background="White" Click="btnAttention_Click" IsEnabled="True" Height="153" Width="171" RenderTransformOrigin="0.5,0.5"/>
     </Grid>
 </Page>

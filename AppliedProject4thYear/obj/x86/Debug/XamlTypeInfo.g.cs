@@ -132,15 +132,25 @@ namespace AppliedProject4thYear.AppliedProject4thYear_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
-            _typeNameTable[0] = "AppliedProject4thYear.MainPage";
+            _typeNameTable = new string[8];
+            _typeNameTable[0] = "AppliedProject4thYear.AttentionLevel1";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "AppliedProject4thYear.AttentionLevel2";
+            _typeNameTable[4] = "AppliedProject4thYear.AttentionLevel3";
+            _typeNameTable[5] = "AppliedProject4thYear.AttentionLevel4";
+            _typeNameTable[6] = "AppliedProject4thYear.AttentionLevel5";
+            _typeNameTable[7] = "AppliedProject4thYear.MainPage";
 
-            _typeTable = new global::System.Type[3];
-            _typeTable[0] = typeof(global::AppliedProject4thYear.MainPage);
+            _typeTable = new global::System.Type[8];
+            _typeTable[0] = typeof(global::AppliedProject4thYear.AttentionLevel1);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::AppliedProject4thYear.AttentionLevel2);
+            _typeTable[4] = typeof(global::AppliedProject4thYear.AttentionLevel3);
+            _typeTable[5] = typeof(global::AppliedProject4thYear.AttentionLevel4);
+            _typeTable[6] = typeof(global::AppliedProject4thYear.AttentionLevel5);
+            _typeTable[7] = typeof(global::AppliedProject4thYear.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -175,7 +185,12 @@ namespace AppliedProject4thYear.AppliedProject4thYear_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::AppliedProject4thYear.MainPage(); }
+        private object Activate_0_AttentionLevel1() { return new global::AppliedProject4thYear.AttentionLevel1(); }
+        private object Activate_3_AttentionLevel2() { return new global::AppliedProject4thYear.AttentionLevel2(); }
+        private object Activate_4_AttentionLevel3() { return new global::AppliedProject4thYear.AttentionLevel3(); }
+        private object Activate_5_AttentionLevel4() { return new global::AppliedProject4thYear.AttentionLevel4(); }
+        private object Activate_6_AttentionLevel5() { return new global::AppliedProject4thYear.AttentionLevel5(); }
+        private object Activate_7_MainPage() { return new global::AppliedProject4thYear.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -187,9 +202,9 @@ namespace AppliedProject4thYear.AppliedProject4thYear_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  AppliedProject4thYear.MainPage
+            case 0:   //  AppliedProject4thYear.AttentionLevel1
                 userType = new global::AppliedProject4thYear.AppliedProject4thYear_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_AttentionLevel1;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -200,6 +215,41 @@ namespace AppliedProject4thYear.AppliedProject4thYear_XamlTypeInfo
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::AppliedProject4thYear.AppliedProject4thYear_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  AppliedProject4thYear.AttentionLevel2
+                userType = new global::AppliedProject4thYear.AppliedProject4thYear_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_AttentionLevel2;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  AppliedProject4thYear.AttentionLevel3
+                userType = new global::AppliedProject4thYear.AppliedProject4thYear_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_AttentionLevel3;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  AppliedProject4thYear.AttentionLevel4
+                userType = new global::AppliedProject4thYear.AppliedProject4thYear_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_AttentionLevel4;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  AppliedProject4thYear.AttentionLevel5
+                userType = new global::AppliedProject4thYear.AppliedProject4thYear_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_AttentionLevel5;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  AppliedProject4thYear.MainPage
+                userType = new global::AppliedProject4thYear.AppliedProject4thYear_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;
