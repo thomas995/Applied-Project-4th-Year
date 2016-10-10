@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="AppliedProject4thYear.MainPages.AttentionPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppliedProject4thYear.MainPages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        
+            <Image x:Name="BearMainPage" Source="Images/BearMainPage.jpg" HorizontalAlignment="Left" Height="98" VerticalAlignment="Top" Width="150" Margin="197,14,0,0"/>
+            <Image x:Name="BarnOwlMainPage" Source="Images/BarnOwlMainPage.jpg" HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="106" Visibility="Visible" Margin="3,8,0,0" />
+            <Image x:Name="PicturePerfectMainPage" Source="Images/PicturePerfectMainPage.jpg" HorizontalAlignment="Right" Height="62" VerticalAlignment="Top" Width="150" Margin="0,438,196,0" RenderTransformOrigin="0.459,1.037" />
+            <Image x:Name="TotalRecallMainPage" Source="Images/TotalRecallMainPage.jpg" HorizontalAlignment="Left" Height="84" VerticalAlignment="Top" Width="150" Margin="198,424,0,0"/>
+            <Image x:Name="PorpoiseMainPage" Source="Images/PorpoiseMainPage.jpg" HorizontalAlignment="Left" Height="84" VerticalAlignment="Top" Width="124" Margin="98,238,0,0"/>
+
+            <!-- Buttons -->
+        <Button x:Name="btnBarnDance"  Opacity="0.5" Content="Play Barn Dance!" HorizontalAlignment="Left" Margin="6,142,0,0" VerticalAlignment="Top" Click="btnBarnDance_Click" Background="Blue" IsEnabled="True" Height="86" Width="171" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="btnBearlyWorking" Opacity="0.5" Content="Play Bearly Working!" HorizontalAlignment="Left" Margin="184,136,0,0" VerticalAlignment="Top" Background="Red" Click="btnBearlyWorking_Click" IsEnabled="True" Height="86" Width="171" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="btnPorpoise" Opacity="0.5" Content="Play Everything Has a Porpoise!" HorizontalAlignment="Left" Margin="47,329,0,0" VerticalAlignment="Top" Background="LemonChiffon" Click="btnPorpoise_Click" IsEnabled="True" Height="86" Width="230" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="btnPicturePerfect" Opacity="0.5" Content="Play Picture Perfect!" HorizontalAlignment="Left" Margin="8,517,0,0" VerticalAlignment="Top" Background="Turquoise" Click="btnPicturePerfect_Click" IsEnabled="True" Height="86" Width="171" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="btnTotalRecall" Opacity="0.5" Content="Play Total Recall!" HorizontalAlignment="Left" Margin="189,522,0,0" VerticalAlignment="Top" Background="Pink" Click="btnTotalRecall_Click" IsEnabled="True" Height="86" Width="171" RenderTransformOrigin="0.5,0.5"/>
+       
+    </Grid>
+</Page>

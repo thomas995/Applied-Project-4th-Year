@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="AppliedProject4thYear.AttentionLevels.PicturePerfect"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppliedProject4thYear.AttentionLevels"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="btnPicturePerfect" Background="LightSalmon" Opacity="1" HorizontalAlignment="Left" Margin="47,407,0,0" VerticalAlignment="Top" Click="btnPicturePerfect_Click" IsEnabled="True" Height="153" Width="252" RenderTransformOrigin="0.5,0.5"
+         Content="Ready? Press here to see a picture!"/>
+    </Grid>
+</Page>
