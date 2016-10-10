@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="AppliedProject4thYear.ProblemSolvingGames"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppliedProject4thYear"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="301*"/>
+            <ColumnDefinition Width="59*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="ManicMathImg" Source="Images/article.jpg" Height="177"  Margin="195,10,0,453" HorizontalAlignment="Left" Width="165" Grid.ColumnSpan="2" />
+
+
+        <Image x:Name="QuickRPGImg" Source="Images/Timer.jpg" Height="177"  Margin="99,448,0,15" HorizontalAlignment="Left" Width="165" />
+
+        <Image x:Name="HigherOrLowerImg" Source="Images/higherOrLower.jpg" Height="177"  Margin="-5,241,0,222" HorizontalAlignment="Left" Width="165" />
+        <Image x:Name="BrainFallImg" Source="Images/Brainfall.jpg" Height="177"  Margin="0,10,0,453" HorizontalAlignment="Left" Width="165" />
+        <Button x:Name="HigherOrLowerGameBtn" Content="Higher or Lower" HorizontalAlignment="Left" Height="177" Margin="-5,271,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.424,0.554" Width="165" Click="HigherOrLowerGameBtn_Click" VerticalContentAlignment="Bottom"/>
+        <Button x:Name="ManicMathsbtn" Content="Manic Maths" HorizontalAlignment="Left" Height="177" Margin="195,20,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.424,0.554" Click="ChalkboardChallengeGamebtn_Click_1" VerticalContentAlignment="Bottom" Width="165" Grid.ColumnSpan="2"/>
+        <Image x:Name="BrainGainImg" Source="Images/brain-lifting-weight.jpg" Height="177"  Margin="195,253,0,210" HorizontalAlignment="Left" Width="165" Grid.ColumnSpan="2" />
+        <Button x:Name="BrainGainGameBtn" Content="Brain Gain" HorizontalAlignment="Left" Height="177" Margin="195,271,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.424,0.554" Width="165" Click="BrainGainGameBtn_Click" VerticalContentAlignment="Bottom" Grid.ColumnSpan="2"/>
+        <Button x:Name="QuickRPG" Content="Quick RPG" HorizontalAlignment="Left" Margin="99,453,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.424,0.554" Width="165" Click="QuickRPG_Click" VerticalContentAlignment="Bottom" Height="177"/>
+        <Button x:Name="BrainFallGameBtn" Content="Brain Fall" HorizontalAlignment="Left" Margin="0,20,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.424,0.554" Click="BrainFallGameBtn_Click" VerticalContentAlignment="Bottom" Width="160" Height="177"/>
+
+
+    </Grid>
+</Page>
