@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppliedProject4thYear.SpeedLevels"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="btnBrainBox" Opacity="1" Content="BrainBox" HorizontalAlignment="Center" Margin="11,36,0,0" VerticalAlignment="Top" Background="Pink" BorderBrush="Red" IsEnabled="True" Height="60" Width="171" RenderTransformOrigin="0.5,0.5" Click="btnBrainBox_Click"/>
+        <Button x:Name="btnDownToATea" Opacity="1" Content="Down To A Tea" HorizontalAlignment="Center" Margin="11,126,0,0" VerticalAlignment="Top" Background="Tan" BorderBrush="Brown" IsEnabled="True" Height="60" Width="171" RenderTransformOrigin="0.5,0.5" Click="btnDownToATea_Click"/>
+        <Button x:Name="btnFoalShadow" Opacity="1" Content="Foal Shadow" HorizontalAlignment="Center" Margin="11,216,0,0" VerticalAlignment="Top" Background="Black" Foreground="White" BorderBrush="Gray" IsEnabled="True" Height="60" Width="171" RenderTransformOrigin="0.5,0.5" Click="btnFoalShadow_Click"/>
+        <Button x:Name="btnGoWithTheBuffLow" Opacity="1" Content="Go With The BuffLow" HorizontalAlignment="Center" Margin="11,306,0,0" VerticalAlignment="Top" Background="SaddleBrown" BorderBrush="Black" Foreground="White" IsEnabled="True" Height="60" Width="171" RenderTransformOrigin="0.5,0.5" Click="btnGoWithTheBuffLow_Click"/>
+        <Button x:Name="btnSpotTheDifference" Opacity="1" Content="Spot The Difference" HorizontalAlignment="Center" Margin="11,396,0,0" VerticalAlignment="Top" Background="White" BorderBrush="Crimson" IsEnabled="True" Height="60" Width="171" RenderTransformOrigin="0.5,0.5" Click="btnSpotTheDifference_Click"/>
+        <Button x:Name="btnBack" Opacity="0.5" Content="Back" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" Background="White" Foreground="Gray" IsEnabled="True" Height="30" Width="120" RenderTransformOrigin="0.5,0.5" Click="btnBack_Click"/>
+    </Grid>
+</Page>
