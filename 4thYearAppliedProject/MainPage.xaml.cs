@@ -1,4 +1,4 @@
-﻿using AppliedProject4thYear.MainPages;
+﻿using AppliedProject4thYear.SpeedLevels;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -16,7 +16,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace _4thYearAppliedProject
+namespace AppliedProject4thYear
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -28,9 +28,24 @@ namespace _4thYearAppliedProject
             this.InitializeComponent();
         }
 
+        private void btnPlay_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnPlay_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void btnAttention_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(AttentionPage));
+            Frame.Navigate(typeof(DownToATea));
+        }
+
+        private void btnSpeed_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(SpeedLevelsMainPage));
         }
     }
 }
