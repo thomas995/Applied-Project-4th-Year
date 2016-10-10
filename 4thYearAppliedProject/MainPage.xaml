@@ -1,16 +1,17 @@
 ﻿<Page
-    x:Class="_4thYearAppliedProject.MainPage"
+    x:Class="AppliedProject4thYear.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:_4thYearAppliedProject"
+    xmlns:local="using:AppliedProject4thYear"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Image x:Name="imgMainPage" Source="Images/MainPage.png" HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="360" Margin="3,170,0,0" d:IsLocked="True" />
-        <Image x:Name="imgAttentionMainPage" Source="Images/imgAttentionMainPage.png" HorizontalAlignment="Left" Height="200" VerticalAlignment="Top" Width="36" Margin="82,212,0,0" />
-        <Button x:Name="btnAttention" Opacity="0" HorizontalAlignment="Left" Margin="11,176,0,0" VerticalAlignment="Top" Background="White" Click="btnAttention_Click" IsEnabled="True" Height="153" Width="171" RenderTransformOrigin="0.5,0.5"
-         Content=""/>
+        <Image x:Name="imgAttentionMainPage" Source="Images/imgAttentionMainPage.png" HorizontalAlignment="Left" Height="200" VerticalAlignment="Top" Width="150" Margin="3,250,0,0" d:IsLocked="True" />
+        <Button x:Name="btnAttention" Opacity="0" Content="Attention" HorizontalAlignment="Left" Margin="11,176,0,0" VerticalAlignment="Top" Background="White" Click="btnAttention_Click" IsEnabled="True" Height="153" Width="171" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="btnSpeed" Opacity="0" Content="Speed" HorizontalAlignment="Left" Margin="11,336,0,0" VerticalAlignment="Top" Background="White" IsEnabled="True" Height="153" Width="171" RenderTransformOrigin="0.5,0.5" Click="btnSpeed_Click"/>
+
     </Grid>
 </Page>
