@@ -11,7 +11,6 @@
         <Image x:Name="imgMainPage" Source="Images/MainPage.png" HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="360" Margin="3,170,0,0" d:IsLocked="True" />
         <Image x:Name="imgAttentionMainPage" Source="Images/imgAttentionMainPage.png" HorizontalAlignment="Left" Height="200" VerticalAlignment="Top" Width="150" Margin="3,250,0,0" d:IsLocked="True" />
         <Button x:Name="btnAttention" Opacity="0" Content="Attention" HorizontalAlignment="Left" Margin="11,176,0,0" VerticalAlignment="Top" Background="White" Click="btnAttention_Click" IsEnabled="True" Height="153" Width="171" RenderTransformOrigin="0.5,0.5"/>
-        <Button x:Name="btnSpeed" Opacity="0" Content="Speed" HorizontalAlignment="Left" Margin="11,336,0,0" VerticalAlignment="Top" Background="White" IsEnabled="True" Height="153" Width="171" RenderTransformOrigin="0.5,0.5" Click="btnSpeed_Click"/>
-
+        <Button x:Name="btnProblemSolving" Content="Problem Solving" HorizontalAlignment="Left" Margin="187,166,0,0" VerticalAlignment="Top" Height="163" Width="168" Click="btnProblemSolving_Click"/>
     </Grid>
 </Page>
