@@ -101,6 +101,7 @@
     <Compile Include="BarnDance.xaml.cs" />
     <Compile Include="BearlyWorking.xaml.cs" />
     <Compile Include="EverythingHasAPorpoise.xaml.cs" />
+    <Compile Include="GlobalClassAttention.cs" />
     <Compile Include="PicturePerfect.xaml.cs" />
     <Compile Include="TotalRecall.xaml.cs" />
     <Compile Include="MainPage.xaml.cs">
@@ -119,6 +120,7 @@
     <Content Include="Images\BarnOwlMainPage.jpg" />
     <Content Include="Images\BearMainPage.jpg" />
     <Content Include="Images\imgAttentionMainPage.png" />
+    <Content Include="Images\imgporpoise.png" />
     <Content Include="Images\MainPage.png" />
     <Content Include="Images\PicturePerfectCoffeeArt.jpg" />
     <Content Include="Images\PicturePerfectHare.jpg" />
@@ -175,9 +177,7 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="AttentionLevels\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

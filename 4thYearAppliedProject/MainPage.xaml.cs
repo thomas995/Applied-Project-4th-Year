@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppliedProject4thYear.MainPages;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -39,12 +40,11 @@ namespace AppliedProject4thYear
 
         private void btnAttention_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(AttentionLevel1));
+            Frame.Navigate(typeof(AttentionPage));
         }
 
         private void btnProblemSolving_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(ProblemSolvingGames), null);
 
         }
     }
