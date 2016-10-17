@@ -12,7 +12,7 @@ Within Attention you will find 5 games that are aimed at improving your attentio
 4. Picture Perfect:
 5. Total Recall:
 
-Within Speed you will find 5 games hat are aimed at improving your Speed:
+Within Speed you will find 5 games that are aimed at improving your Speed:
 
 1.
 2.
@@ -20,7 +20,7 @@ Within Speed you will find 5 games hat are aimed at improving your Speed:
 4.
 5.
 
-Within Problem-Solving you will find 5 games hat are aimed at improving your Problem-Solving Skills:
+Within Problem-Solving you will find 5 games that are aimed at improving your Problem-Solving Skills:
 
 1.
 2.
@@ -28,7 +28,7 @@ Within Problem-Solving you will find 5 games hat are aimed at improving your Pro
 4.
 5.
 
-Within Memory you will find 5 games hat are aimed at improving your Memory:
+Within Memory you will find 5 games that are aimed at improving your Memory:
 
 1.
 2.
