@@ -6,11 +6,11 @@ Within this project we are going to create a Brain Training-Type game called Bra
 
 Within Attention you will find 5 games that are aimed at improving your attention:
 
-1. Barn Dance:
-2. Bearly Working:
-3. Everything has a Porpoise:
-4. Picture Perfect:
-5. Total Recall:
+1. Barn Dance: Using Storyboards to change the direction of an Owl image, I will be starting the storyboard which will move the owl from a certain direction. The User has to interpret what kind of Owl is coming into the screen and direct it to the appropriate Owl Hut. There will be Snowy Owls, Barn Owls, Tawny Owls etc and they will all have to be directed appropriately.
+2. Tea Total: Using Storyboards to change the look of the tea object, I will be creating a game that shows a tea cup on a 'Conveyor belt'. The user has to complete an 'order' before the cup reaches the end of the conveyor belt. Orders will include, 2 sugars, milk, green tea, etc and will get more complicated with more orders being added so the user has to be quick. The game is designed to test the user's divided attention.
+3. Everything has a Porpoise: You will start off with 3 Porpoise fish swimming around a pool, you have to click on each of the 3 fish only once and when this has been done you will move onto the next level where there will be more fish added to the pool. If you click the same fish twice you lose the game, you only progress by clicking all fish once. This gets increasigly difficult the more fish are added and is designed to test your divided attention.
+4. Picture Perfect: There will be a picture in front of you. You get a certain amount of seconds to look at the picture before you are asked to recall certain aspects of the picture. The game is designed to test the user's selective attention.
+5. Total Recall: There will be a story in words in front of you. You get a certain amount of seconds to look at the story before you are asked to recall certain aspects of the story. The game is designed to test the user's selected attention.
 
 Within Speed you will find 5 games hat are aimed at improving your Speed:
 
