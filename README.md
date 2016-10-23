@@ -12,13 +12,13 @@ Within Attention you will find 5 games that are aimed at improving your attentio
 4. Picture Perfect: There will be a picture in front of you. You get a certain amount of seconds to look at the picture before you are asked to recall certain aspects of the picture. The game is designed to test the user's selective attention.
 5. Total Recall: There will be a story in words in front of you. You get a certain amount of seconds to look at the story before you are asked to recall certain aspects of the story. The game is designed to test the user's selected attention.
 
-Within Speed you will find 5 games hat are aimed at improving your Speed:
+Within Speed you will find 5 games that are aimed at improving your Speed:
 
-1.
-2.
-3.
-4.
-5.
+1. Brainbox: Using keys/ Arrows on screen direct an object through a maze and get to the end with the quickest time you can.
+2. Down to a tea: An image of a biscuit will appear with some text on it which may/may not be the name of the biscuit it is. You will have 4 options to choose from to guess the right biscuit.
+3. Foal Shadow: A silhouette of an animal will appear and then disappear and a new one will appear and the player is asked if this image matches the last one and they will have two options of yes and no.
+4. Go with the BuffLow: A number of Buffalo appear on screen and they have to be sorted into herds of the same number by swinging a stick around on screen and when let go that will be your two herds. There needs to be the same number on each side in order to progress.
+5. Spot the difference: You will be given an image to inspect. Then two images will appear side by side and you will then have to choose which image is the different one.
 
 Within Problem-Solving you will find 5 games hat are aimed at improving your Problem-Solving Skills:
 
