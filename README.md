@@ -22,11 +22,11 @@ Within Speed you will find 5 games that are aimed at improving your Speed:
 
 Within Problem-Solving you will find 5 games that are aimed at improving your Problem-Solving Skills:
 
-1.
-2.
-3.
-4.
-5.
+1. BrainFall: While making use of storyboards and canvas collisions, the aim of the game is to answer as many mathematical questions as possible before any of the rain drops fall to the bottom of the screen. As the game progresses the speed of the drop will increase.
+2. Brain Gains: You are given a person who has been working out for X amount of time using Y amount of weight. With this, figure out how much they can lift from a selection of options. Be careful not to lift above your weight!
+3. Higher or Lower: The aim of this game is to answer two maths questions at the same time and select the one with the highest answer.You are racing against a clock and will recieve extra time for each correct answer.
+4. Manic Maths: You are placed a few paces ahead of a murderer. You move forward each time an answer is given correctly. The murderer moves every few seconds. If you cannot answer the questions quick enough, the game will end...
+5. Quick RPG: You are a character in a game and are given a set amount for your stats and have to survive as many battles with enemies for as long as you can.
 
 Within Memory you will find 5 games that are aimed at improving your Memory:
 
