@@ -6,8 +6,58 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    <Page.Resources>
+        <Storyboard x:Name="sbPorpoiseLevel1" RepeatBehavior="Forever" AutoReverse="True">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="imgporpoise">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="111.158"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="16.842"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="imgporpoise">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-112.841"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="311.58"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="imgporpoise3">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-180.211"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-32"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="imgporpoise3">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-168.421"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-1.684"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="imgporpoise2">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="10.105"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="65.684"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="imgporpoise2">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="309.895"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-23.579"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Page.Resources>
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="LightBlue">
+        <Image x:Name="imgporpoise" Source="Images/imgporpoise.png" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="72" Margin="82,153,0,0" d:LayoutOverrides="HorizontalAlignment" RenderTransformOrigin="0.5,0.5" Tapped="imgporpoise_Tapped">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+            <Image.Projection>
+                <PlaneProjection RotationX="20" RotationY="180"/>
+            </Image.Projection>
+        </Image>
+        <Image x:Name="imgporpoise2" Source="Images/imgporpoise.png" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="72" Margin="216,95,0,0" RenderTransformOrigin="-0.467,1.574" Tapped="imgporpoise2_Tapped">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="imgporpoise3" Source="Images/imgporpoise.png" HorizontalAlignment="Left" Width="72" Margin="212,261,0,313" RenderTransformOrigin="1.955,1.778" Tapped="imgporpoise3_Tapped" d:LayoutOverrides="TopPosition, BottomPosition">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+            <Image.Projection>
+                <PlaneProjection RotationX="180"/>
+            </Image.Projection>
+        </Image>
 
+        <TextBlock x:Name="txtbScore" Margin="222,12,13,0" Opacity="0.5" Text="" Height="52" VerticalAlignment="Top"/>
     </Grid>
 </Page>
