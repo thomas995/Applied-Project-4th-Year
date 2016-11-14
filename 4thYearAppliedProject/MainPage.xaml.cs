@@ -1,5 +1,6 @@
-﻿using AppliedProject4thYear.Attention;
-using AppliedProject4thYear.Memory;
+﻿//using AppliedProject4thYear.Attention;
+using AppliedProject4thYear.MainPages;
+//using AppliedProject4thYear.Memory;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -48,7 +49,7 @@ namespace AppliedProject4thYear
         {
             //Nav Destinations not working.
             //Frame.Navigate(typeof(EverythingHasAPorpoise));
-            //this.Frame.Navigate(typeof(EverythingHasAPorpoise), null);
+            this.Frame.Navigate(typeof(ProblemSolvingGames), null);
         }//- End of btnProblemSolving_Click
 
         private void btnSpeed_Click(object sender, RoutedEventArgs e)
@@ -60,7 +61,7 @@ namespace AppliedProject4thYear
         private void btnMemory_Click(object sender, RoutedEventArgs e)
         {
             //Nav Destinations not working.
-            Frame.Navigate(typeof(ShoppingList));
+           // Frame.Navigate(typeof(ShoppingList));
         }//- End of btnMemory_Click
 
         private void btnOk_Click(object sender, RoutedEventArgs e)

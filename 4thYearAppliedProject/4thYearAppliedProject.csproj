@@ -100,9 +100,45 @@
     </Compile>
     <Compile Include="BarnDance.xaml.cs" />
     <Compile Include="BearlyWorking.xaml.cs" />
+    <Compile Include="BrainFall.xaml.cs">
+      <DependentUpon>BrainFall.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BrainGains.xaml.cs">
+      <DependentUpon>BrainGains.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EverythingHasAPorpoise.xaml.cs" />
     <Compile Include="GlobalClassAttention.cs" />
+    <Compile Include="HigherOrLower.xaml.cs">
+      <DependentUpon>HigherOrLower.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ManicMaths.xaml.cs">
+      <DependentUpon>ManicMaths.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PicturePerfect.xaml.cs" />
+    <Compile Include="ProblemSolvingGames.xaml.cs">
+      <DependentUpon>ProblemSolvingGames.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="QuickRPG.xaml.cs">
+      <DependentUpon>QuickRPG.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SpeedLevels\BrainBox\BrainBox.xaml.cs">
+      <DependentUpon>BrainBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SpeedLevels\DownToATea\DownToATea.xaml.cs">
+      <DependentUpon>DownToATea.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SpeedLevels\FoalShadow\FoalShadow.xaml.cs">
+      <DependentUpon>FoalShadow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SpeedLevels\GoWithTheBuffLow\GoWithTheBuffLow.xaml.cs">
+      <DependentUpon>GoWithTheBuffLow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SpeedLevels\SpeedLevelsMainPage.xaml.cs">
+      <DependentUpon>SpeedLevelsMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SpeedLevels\SpotTheDifference\SpotTheDifference.xaml.cs">
+      <DependentUpon>SpotTheDifference.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TotalRecall.xaml.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -117,8 +153,17 @@
     <None Include="4thYearAppliedProject_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\article.jpg" />
     <Content Include="Images\BarnOwlMainPage.jpg" />
     <Content Include="Images\BearMainPage.jpg" />
+    <Content Include="Images\brain-lifting-weight.jpg" />
+    <Content Include="Images\BrainBox.jpg" />
+    <Content Include="Images\Brainfall.jpg" />
+    <Content Include="Images\BrainWorks.jpg" />
+    <Content Include="Images\DownToATea.jpg" />
+    <Content Include="Images\FoalShadow.png" />
+    <Content Include="Images\GoWithTheBuffLow.jpg" />
+    <Content Include="Images\higherOrLower.jpg" />
     <Content Include="Images\imgAttentionMainPage.png" />
     <Content Include="Images\imgporpoise.png" />
     <Content Include="Images\MainPage.png" />
@@ -133,6 +178,8 @@
     <Content Include="Images\PicturePerfectTea.jpg" />
     <Content Include="Images\PicturePerfectZoo.jpg" />
     <Content Include="Images\PorpoiseMainPage.jpg" />
+    <Content Include="Images\SpotTheDifference.png" />
+    <Content Include="Images\Timer.jpg" />
     <Content Include="Images\TotalRecallMainPage.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -156,11 +203,59 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="BrainFall.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="BrainGains.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="EverythingHasAPorpoise.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="HigherOrLower.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ManicMaths.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="PicturePerfect.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ProblemSolvingGames.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="QuickRPG.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\BrainBox\BrainBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\DownToATea\DownToATea.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\FoalShadow\FoalShadow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\GoWithTheBuffLow\GoWithTheBuffLow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\SpeedLevelsMainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\SpotTheDifference\SpotTheDifference.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

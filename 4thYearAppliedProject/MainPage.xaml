@@ -42,7 +42,7 @@
         </StackPanel>
 
         <Image x:Name="imgMainPage" Source="Images/MainPage.png" HorizontalAlignment="Center" Height="640" VerticalAlignment="Center" Width="340" Margin="10,10,10,10" d:IsLocked="True" />
-        <!--<Image x:Name="imgAttentionMainPage" Source="Images/imgAttentionMainPage.png" HorizontalAlignment="Left" Height="200" VerticalAlignment="Top" Width="150" Margin="3,250,0,0" d:IsLocked="True" />-->
+        <Image x:Name="imgAttentionMainPage" Source="Images/imgAttentionMainPage.png" HorizontalAlignment="Left" Height="200" VerticalAlignment="Top" Width="150" Margin="3,250,0,0" d:IsLocked="True" />
         <Button x:Name="btnAttention" Content="Attention" HorizontalAlignment="Left" Margin="10,177,0,0" VerticalAlignment="Top" Click="btnAttention_Click" Height="149" Width="168"/>
         <Button x:Name="btnProblemSolving" Content="Problem Solving" HorizontalAlignment="Left" Margin="183,177,0,0" VerticalAlignment="Top" Height="149" Width="167" Click="btnProblemSolving_Click"/>
         <Button x:Name="btnSpeed" Content="Speed" HorizontalAlignment="Left" Margin="10,326,0,178" VerticalAlignment="Center" Height="136" Width="168" Click="btnSpeed_Click"/>
