@@ -1,4 +1,6 @@
-﻿using AppliedProject4thYear.MainPages;
+﻿//using AppliedProject4thYear.Attention;
+using AppliedProject4thYear.MainPages;
+//using AppliedProject4thYear.Memory;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,8 +16,6 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
-
 namespace AppliedProject4thYear
 {
     /// <summary>
@@ -26,26 +26,60 @@ namespace AppliedProject4thYear
         public MainPage()
         {
             this.InitializeComponent();
-        }
 
-        private void btnPlay_Click(object sender, RoutedEventArgs e)
-        {
+            //btnAttention.Visibility = Visibility.Collapsed;
+            //btnProblemSolving.Visibility = Visibility.Collapsed;
+            //btnSpeed.Visibility = Visibility.Collapsed;
+            //btnMemory.Visibility = Visibility.Collapsed;
 
-        }
-
-        private void btnPlay_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
+            /*if (btnAttention.Visibility == Visibility.Collapsed && btnProblemSolving.Visibility == Visibility.Collapsed 
+            && btnSpeed.Visibility == Visibility.Collapsed && btnMemory.Visibility == Visibility.Collapsed)
+            {
+                btnLogin.Visibility = Visibility.Visible;
+            }*/
+        }//- End of MainPage()
 
         private void btnAttention_Click(object sender, RoutedEventArgs e)
         {
+            //Nav Destinations not working.
             Frame.Navigate(typeof(AttentionPage));
-        }
+        }//- End of btnAttention_Click
 
         private void btnProblemSolving_Click(object sender, RoutedEventArgs e)
         {
+            //Nav Destinations not working.
+            //Frame.Navigate(typeof(EverythingHasAPorpoise));
+            this.Frame.Navigate(typeof(ProblemSolvingGames), null);
+        }//- End of btnProblemSolving_Click
 
-        }
-    }
-}
+        private void btnSpeed_Click(object sender, RoutedEventArgs e)
+        {
+            //Nav Destinations not working.
+            //Frame.Navigate(typeof(EverythingHasAPorpoise));
+        }//- End of btnSpeed_Click
+
+        private void btnMemory_Click(object sender, RoutedEventArgs e)
+        {
+            //Nav Destinations not working.
+           // Frame.Navigate(typeof(ShoppingList));
+        }//- End of btnMemory_Click
+
+        private void btnOk_Click(object sender, RoutedEventArgs e)
+        {
+
+        }//- End of btnOk_Click
+
+        private void btnLoginOk_Click(object sender, RoutedEventArgs e)
+        {
+            //txtUsername.Text;
+            //txtPassword.Text;
+        }//- End of btnLoginOk_Click
+
+        private void btnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            loginFlyout.Hide();
+            signupFlyout.Hide();
+        }//- End of btnCancel_Click
+
+    }//- End of MainPage
+}//- End of AppliedProject4thYear
