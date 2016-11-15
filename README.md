@@ -28,10 +28,10 @@ Within this project we are going to create a Brain Training-Type game called Bra
 4. Manic Maths: You are placed a few paces ahead of a murderer. You move forward each time an answer is given correctly. The murderer moves every few seconds. If you cannot answer the questions quick enough, the game will end...
 5. Quick RPG: You are a character in a game and are given a set amount for your stats and have to survive as many battles with enemies for as long as you can.
 
-## Within Memory you will find 5 games that are aimed at improving your Memory:
+## Within Memory you will find 5 games hat are aimed at improving your Memory:
 
-1.
-2.
-3.
-4.
-5.
+1. Shopping List: This is a game where the user starts with one item on their shopping list, each turn they have to add another item to their list and recall all the previous items in order for as many turns as possible. Items can be reused as many times as the user wishes. Two-player functionality could be incorporated in the future.
+2. Once & Never Again: In this game the user has to pick one of the items on the screen, the screen will then respawn with a new selection of items. The aim is to not pick one of the previously chosen items.
+3. Odd One Out: The user will be shown a selection of images and told to memorise them. After a few seconds they will disappear, then be shown again but in a different order and one will be different. The user must pick out the imposter image, each round the time to memorise the images will become shorter and shorter.
+4. Twos a Pair: In this game the user has to find all the hidden pairs of cards on the table. They will briefly be shown then laid facedown on the screen. The user must then flip over the pairs.
+5. Sequential: A selection of colours are displayed to the user on the screen, a sequence of colours will be flashed. Starting with three, the number of flashes in the sequence will increase as the user passes more levels.
