@@ -9,6 +9,21 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button x:Name="PSGBackBtn" Content="Go Back" HorizontalAlignment="Left" Margin="244,0,0,0" VerticalAlignment="Top" Height="58" Width="116" Click="PSGBackBtn_Click"/>
+        <TextBlock x:Name="txtMathQuestion" HorizontalAlignment="Left" Margin="3,190,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="218" Width="354" FontWeight="Bold" FontSize="24" FontFamily="Showcard Gothic"/>
+        <Button x:Name="btn_MMStart" Content="Begin" HorizontalAlignment="Left" Margin="124,116,0,0" VerticalAlignment="Top" Height="58" Width="116" Click="btn_MMStart_Click"/>
+        <TextBlock x:Name="lblAnswer" HorizontalAlignment="Left" Margin="2,415,0,0" TextWrapping="Wrap" Text="Answer:" VerticalAlignment="Top" Height="38" Width="104" FontWeight="Bold" FontSize="24" FontFamily="Lucida Sans" Visibility="Collapsed"/>
+        <TextBox x:Name="txtAnswer" HorizontalAlignment="Left" Margin="105,408,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="24" Width="117" Background="#FF9C8B8B" Visibility="Collapsed"/>
+        <Button x:Name="btnAnswer" Content="Enter" HorizontalAlignment="Left" Margin="246,411,0,0" VerticalAlignment="Top" Width="89" FontSize="20" Click="btnAnswer_Click" Visibility="Collapsed">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF81C760"/>
+                    <GradientStop Color="#FF58C127" Offset="0.848"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="txtScore" HorizontalAlignment="Left" Margin="3,512,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsReadOnly="True" FontSize="24"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="0,477,0,0" TextWrapping="Wrap" Text="Score" VerticalAlignment="Top" FontFamily="Showcard Gothic" FontSize="24"/>
 
     </Grid>
 </Page>
