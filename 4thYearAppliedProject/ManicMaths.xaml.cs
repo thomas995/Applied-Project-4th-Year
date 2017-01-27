@@ -28,6 +28,51 @@ namespace AppliedProject4thYear
             
         }
 
+        DispatcherTimer dispatcherTimer;
+        int timesTicked = 60;
+        int timesToTick = 60;
+        public void DispatcherTimerSetup()
+        {
+            dispatcherTimer = new DispatcherTimer();
+            dispatcherTimer.Tick += dispatcherTimer_Tick;
+            dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
+            dispatcherTimer.Start();
+        }
+
+        async void dispatcherTimer_Tick(object sender, object e)
+        {
+            TimerLog.Text = timesTicked.ToString();
+            if (timesTicked > timesToTick)
+            {
+                TimerStatus.Text = "Calling dispatcherTimer.Stop()\n";
+                dispatcherTimer.Stop();
+                TimerStatus.Text = "dispatcherTimer.IsEnabled = " + dispatcherTimer.IsEnabled + "\n";
+            }
+            timesTicked--;
+
+            if (timesTicked == -1)
+            {
+                dispatcherTimer.Stop(); // stops timer going below 0
+                var dialog = new Windows.UI.Popups.MessageDialog
+                ("Out of time! You scored a total of: " + score);
+                var result = await dialog.ShowAsync();
+                this.Frame.Navigate(typeof(MainPage), null);
+            }
+        }
+        private void TimerStart_Click_1(object sender, RoutedEventArgs e)
+        {
+            DispatcherTimerSetup();
+        }
+
+        private void TimerStop_Click_1(object sender, RoutedEventArgs e)
+        {
+            dispatcherTimer.Stop();
+        }
+        private void Page_Loaded_1(object sender, RoutedEventArgs e)
+        {
+            TimerStatus.Text = "dispatcherTimer.IsEnabled = False";
+        }
+
         // Variables
         string[] Names = new string[] { "Thomas", "Declan", "Claire", "Padraic", "Alanna" };
         string[] Names2 = new string[] { " Yvonne "," Scott "," Robert "," Oliver ", " Pauric ", };
@@ -59,6 +104,8 @@ namespace AppliedProject4thYear
 
         public void btn_MMStart_Click(object sender, RoutedEventArgs e)
         {
+            DispatcherTimerSetup();
+
             Random rnd2 = new Random();
             btn_MMStart.Visibility = Visibility.Collapsed;
             btnAnswer.Visibility = Visibility.Visible;

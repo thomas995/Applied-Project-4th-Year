@@ -8,6 +8,8 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="TimerLog" FontSize="45" Margin="155,77,0,0"></TextBlock>
+        <TextBlock x:Name="TimerStatus" FontSize="25" ></TextBlock>
         <Button x:Name="PSGBackBtn" Content="Go Back" HorizontalAlignment="Left" Margin="244,0,0,0" VerticalAlignment="Top" Height="58" Width="116" Click="PSGBackBtn_Click"/>
         <TextBlock x:Name="txtMathQuestion" HorizontalAlignment="Left" Margin="3,190,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="218" Width="354" FontWeight="Bold" FontSize="24" FontFamily="Showcard Gothic"/>
         <Button x:Name="btn_MMStart" Content="Begin" HorizontalAlignment="Left" Margin="124,116,0,0" VerticalAlignment="Top" Height="58" Width="116" Click="btn_MMStart_Click"/>

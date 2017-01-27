@@ -7,29 +7,34 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:Name="buttonSave" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="53*"/>
-            <RowDefinition Height="75*"/>
-        </Grid.RowDefinitions>
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
 
-        <Button x:Name="btnFirstChoice_Copy1" Visibility="Collapsed" Content="+" HorizontalAlignment="Left" Margin="144,44,0,0" VerticalAlignment="Top" Width="68" Height="69" FontSize="18" Opacity="0.5" Grid.Row="1"/>
+        <Grid x:Name="buttonSave" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="53*"/>
+                <RowDefinition Height="75*"/>
+            </Grid.RowDefinitions>
 
-        <Button x:Name="btnFirstChoice_Copy" Content="+" HorizontalAlignment="Left" Margin="144,193,0,0" VerticalAlignment="Top" Width="70" Height="69" FontSize="18" Click="btnFirstChoice_Click" Opacity="0.5" Visibility="Collapsed"/>
+            <TextBlock x:Name="TimerLog" FontSize="45" Margin="155,77,0,0"></TextBlock>
+            <TextBlock x:Name="TimerStatus" FontSize="25" ></TextBlock>
+            <Button x:Name="btnFirstChoice_Copy1" Visibility="Collapsed" Content="+" HorizontalAlignment="Left" Margin="144,44,0,0" VerticalAlignment="Top" Width="68" Height="69" FontSize="18" Opacity="0.5" Grid.Row="1"/>
 
-        <Button x:Name="PSGBackBtn" Content="Go Back" HorizontalAlignment="Left" Margin="239,336,0,-11" VerticalAlignment="Top" Height="50" Width="116" Click="PSGBackBtn_Click" Grid.Row="1"/>
-        <Button x:Name="btnFirstChoice" Content="" HorizontalAlignment="Left" Margin="1,194,0,0" VerticalAlignment="Top" Visibility="Collapsed" Width="143" Height="69" FontSize="18" Click="btnFirstChoice_Click"/>
-        <TextBox x:Name="displayScore" IsReadOnly="True" HorizontalAlignment="Left" Margin="96,232,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="40" Width="171" Grid.Row="1"/>
-        <Button x:Name="btnSecondChoice" Content="" HorizontalAlignment="Left" Margin="214,194,0,0" VerticalAlignment="Top" Width="144" Height="69" FontSize="18" Visibility="Collapsed" Click="btnSecondChoice_Click"/>
-        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="142,77,0,0" VerticalAlignment="Top" Width="85" Height="69" FontSize="18"  Click="btnStart_Click"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="96,202,0,0" TextWrapping="Wrap" Text="Score:" VerticalAlignment="Top" IsReadOnly="True" FontWeight="Bold" Grid.Row="1" Height="32" Width="64"/>
-        <TextBlock x:Name="textBlock" Margin="13,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="66" Width="347" FontSize="25" HorizontalAlignment="Center" Padding="0" />
-        <TextBox x:Name="txtLives" HorizontalAlignment="Left" Margin="170,121,0,0" TextWrapping="Wrap" Text="" Visibility="Visible" VerticalAlignment="Top" Height="32" Width="85" IsReadOnly="True" Grid.Row="1"/>
-        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Margin="96,121,0,0" TextWrapping="Wrap" Text="Lives:" VerticalAlignment="Top" IsReadOnly="True" FontWeight="Bold" Grid.Row="1" Height="32" Width="64"/>
-        <Button x:Name="btnChoiceOne" Content="" Visibility="Collapsed" HorizontalAlignment="Left" Margin="2,194,-1,0" VerticalAlignment="Top" Width="359" Height="69" FontSize="18" Click="btnChoiceOne_Click"/>
-        <Button x:Name="btnChoice3" Content="" HorizontalAlignment="Left" Visibility="Collapsed" Margin="0,44,0,0" VerticalAlignment="Top" Width="144" Height="69" FontSize="18" Grid.Row="1"/>
-        <Button x:Name="btnChoice4" Content="" HorizontalAlignment="Left" Margin="212,44,0,0" Visibility="Collapsed" VerticalAlignment="Top" Width="147" Height="69" FontSize="18" Grid.Row="1"/>
-        <Button x:Name="btnChoiceTwo" Content="" HorizontalAlignment="Left" Margin="-2,46,0,0" Visibility="Collapsed" VerticalAlignment="Top" Width="359" Height="69" FontSize="18" Click="btnChoiceTwo_Click" Grid.Row="1"/>
+            <Button x:Name="btnFirstChoice_Copy" Content="+" HorizontalAlignment="Left" Margin="144,193,0,0" VerticalAlignment="Top" Width="70" Height="69" FontSize="18" Click="btnFirstChoice_Click" Opacity="0.5" Visibility="Collapsed"/>
 
+            <Button x:Name="PSGBackBtn" Content="Go Back" HorizontalAlignment="Left" Margin="239,336,0,-11" VerticalAlignment="Top" Height="50" Width="116" Click="PSGBackBtn_Click" Grid.Row="1"/>
+            <Button x:Name="btnFirstChoice" Content="" HorizontalAlignment="Left" Margin="1,194,0,0" VerticalAlignment="Top" Visibility="Collapsed" Width="143" Height="69" FontSize="18" Click="btnFirstChoice_Click"/>
+            <TextBox x:Name="displayScore" IsReadOnly="True" HorizontalAlignment="Left" Margin="96,232,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="40" Width="171" Grid.Row="1"/>
+            <Button x:Name="btnSecondChoice" Content="" HorizontalAlignment="Left" Margin="214,194,0,0" VerticalAlignment="Top" Width="144" Height="69" FontSize="18" Visibility="Collapsed" Click="btnSecondChoice_Click"/>
+            <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="142,77,0,0" VerticalAlignment="Top" Width="85" Height="69" FontSize="18"  Click="btnStart_Click"/>
+            <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="96,202,0,0" TextWrapping="Wrap" Text="Score:" VerticalAlignment="Top" IsReadOnly="True" FontWeight="Bold" Grid.Row="1" Height="32" Width="64"/>
+            <TextBlock x:Name="textBlock" Margin="13,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="66" Width="347" FontSize="25" HorizontalAlignment="Center" Padding="0" />
+            <TextBox x:Name="txtLives" HorizontalAlignment="Left" Margin="170,121,0,0" TextWrapping="Wrap" Text="" Visibility="Visible" VerticalAlignment="Top" Height="32" Width="85" IsReadOnly="True" Grid.Row="1"/>
+            <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Margin="96,121,0,0" TextWrapping="Wrap" Text="Lives:" VerticalAlignment="Top" IsReadOnly="True" FontWeight="Bold" Grid.Row="1" Height="32" Width="64"/>
+            <Button x:Name="btnChoiceOne" Content="" Visibility="Collapsed" HorizontalAlignment="Left" Margin="2,194,-1,0" VerticalAlignment="Top" Width="359" Height="69" FontSize="18" Click="btnChoiceOne_Click"/>
+            <Button x:Name="btnChoice3" Content="" HorizontalAlignment="Left" Visibility="Collapsed" Margin="0,44,0,0" VerticalAlignment="Top" Width="144" Height="69" FontSize="18" Grid.Row="1"/>
+            <Button x:Name="btnChoice4" Content="" HorizontalAlignment="Left" Margin="212,44,0,0" Visibility="Collapsed" VerticalAlignment="Top" Width="147" Height="69" FontSize="18" Grid.Row="1"/>
+            <Button x:Name="btnChoiceTwo" Content="" HorizontalAlignment="Left" Margin="-2,46,0,0" Visibility="Collapsed" VerticalAlignment="Top" Width="359" Height="69" FontSize="18" Click="btnChoiceTwo_Click" Grid.Row="1"/>
+
+        </Grid>
     </Grid>
 </Page>

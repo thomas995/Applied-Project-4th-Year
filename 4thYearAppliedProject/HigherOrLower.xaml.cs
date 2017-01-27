@@ -30,8 +30,52 @@ namespace AppliedProject4thYear
             this.InitializeComponent();
         }
 
+        DispatcherTimer dispatcherTimer;
+        int timesTicked = 60;
+        int timesToTick = 60;
+        public void DispatcherTimerSetup()
+        {
+            dispatcherTimer = new DispatcherTimer();
+            dispatcherTimer.Tick += dispatcherTimer_Tick;
+            dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
+            dispatcherTimer.Start();
+        }
 
-        int HoLScore = 0;
+        async void dispatcherTimer_Tick(object sender, object e)
+        {
+            TimerLog.Text = timesTicked.ToString();
+            if (timesTicked > timesToTick)
+            {
+                TimerStatus.Text = "Calling dispatcherTimer.Stop()\n";
+                dispatcherTimer.Stop();
+                TimerStatus.Text = "dispatcherTimer.IsEnabled = " + dispatcherTimer.IsEnabled + "\n";
+            }
+            timesTicked--;
+
+            if (timesTicked == -1)
+            {
+                dispatcherTimer.Stop(); // stops timer going below 0
+                var dialog = new Windows.UI.Popups.MessageDialog
+                ("Out of time! You scored a total of: " + HoLScore);
+                var result = await dialog.ShowAsync();
+                this.Frame.Navigate(typeof(MainPage), null);
+            }
+        }
+        private void TimerStart_Click_1(object sender, RoutedEventArgs e)
+        {
+            DispatcherTimerSetup();
+        }
+
+        private void TimerStop_Click_1(object sender, RoutedEventArgs e)
+        {
+            dispatcherTimer.Stop();
+        }
+        private void Page_Loaded_1(object sender, RoutedEventArgs e)
+        {
+            TimerStatus.Text = "dispatcherTimer.IsEnabled = False";
+        }
+    
+int HoLScore = 0;
         Random random1 = new Random(200);
         Random random2 = new Random(205);
         Random random3 = new Random(210);
@@ -142,6 +186,8 @@ namespace AppliedProject4thYear
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
+            DispatcherTimerSetup();
+
             btnStart.Visibility = Visibility.Collapsed;
             txtLives.Visibility = Visibility.Visible;
             btnChoiceOne.Visibility = Visibility.Visible;
